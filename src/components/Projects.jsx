@@ -19,6 +19,7 @@ const projects = [
       "CivicEye is a web application designed to empower citizens by providing a platform for reporting and monitoring civic issues.",
     technologies: "React.js, MongoDB, Node.js, Express.js, Tailwind CSS, JavaScript",
     delay: 400,
+      liveLink: "https://civic-eye-lemon.vercel.app/", // Add deployed link here
     sourceCode: 'https://github.com/HridyaDEV/civic-eye',
   },
   {
@@ -90,6 +91,16 @@ function Projects() {
               <p className="text-sm text-gray-500 mt-2">
                 <span className="font-semibold">Technologies:</span> {project.technologies}
               </p>
+              {project.liveLink && (
+  <a
+    href={project.liveLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-2 inline-block bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors mr-2"
+  >
+    Live Demo
+  </a>
+)}
               {project.sourceCode && (
                 <a
                   href={project.sourceCode}
