@@ -18,8 +18,8 @@ function Brief() {
           Hi, I'm Hridya!
         </h2>
         <p className="mt-4 text-base sm:text-lg md:text-xl text-gray-100">
-          A passionate Computer Science graduate and fresher, eager to explore new opportunities and contribute to impactful projects.
-        </p>
+
+I’m a passionate Computer Science graduate and a fresher, eager to learn, grow, and contribute to meaningful and impactful projects.        </p>
 
         <a
           href="#about"

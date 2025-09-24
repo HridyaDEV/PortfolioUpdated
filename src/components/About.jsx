@@ -49,7 +49,7 @@ function About() {
                     {/* About Details */}
                     <div className="text-left max-w-lg" data-aos="fade-right">
                         <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                            I'm <span className="font-serif text-purple-600 font-bold">{profileInfo.name}</span>, a B.Tech CSE graduate passionate about web development and design. I specialize in crafting responsive and intuitive user experiences using modern frameworks like React and Tailwind CSS. My skills include HTML, CSS, JavaScript, React, Tailwind CSS, MySQL, Node.js, MongoDB etc. I’m always exploring new technologies to create exceptional digital solutions.
+                            I'm <span className="font-serif text-purple-600 font-bold">{profileInfo.name}</span>,a B.Tech CSE graduate with a passion for web development and design. I specialize in building responsive and intuitive user experiences using modern technologies like React and Tailwind CSS. My skill set includes HTML, CSS, JavaScript, React, Tailwind CSS, Node.js, MongoDB, and MySQL. I’m continuously exploring new technologies to craft innovative and high-quality digital solutions.
                         </p>
 
                         {/* Personal Info */}

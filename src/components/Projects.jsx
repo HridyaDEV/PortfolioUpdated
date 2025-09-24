@@ -4,19 +4,22 @@ import "aos/dist/aos.css";
 import { FaLaptopCode } from "react-icons/fa";
 
 const projects = [
-  {
-    title: "E-Learning App",
+
+    {
+    title: "ToyCycle",
     description:
-      "Developed an innovative e-learning application using machine learning to predict individual learning styles. Enhanced user experience with CSS and Java, leveraging tools like Android Studio and Firebase.",
-    technologies: "Java, CSS, Android Studio, Firebase",
+      "Built a full-stack web application enabling users to resell or purchase pre-owned toys, encouraging sustainable toy usage.",
+    technologies: "React.js, MongoDB, Node.js, Express.js, Tailwind CSS, JavaScript",
     delay: 300,
+    sourceCode: 'https://github.com/HridyaDEV/MainProject-ToyCycle',
   },
-  {
-    title: "Library Management System",
+    {
+    title: "CivicEye",
     description:
-      "Engineered a web-based platform to streamline library tasks like pre-booking, issuing, and fine tracking. Integrated with tools like phpMyAdmin and XAMPP.",
-    technologies: "Java, HTML, CSS, XAMPP",
+      "CivicEye is a web application designed to empower citizens by providing a platform for reporting and monitoring civic issues.",
+    technologies: "React.js, MongoDB, Node.js, Express.js, Tailwind CSS, JavaScript",
     delay: 400,
+    sourceCode: 'https://github.com/HridyaDEV/civic-eye',
   },
   {
     title: "Movie App",
@@ -34,14 +37,22 @@ const projects = [
     delay: 600,
     sourceCode: 'https://github.com/HridyaDEV/softronics-react/tree/main/weather-app',
   },
-  {
-    title: "ToyCycle",
+    {
+    title: "E-Learning App",
     description:
-      "Built a full-stack web application enabling users to resell or purchase pre-owned toys, encouraging sustainable toy usage.",
-    technologies: "React.js, MongoDB, Node.js, Express.js, Tailwind CSS, JavaScript",
+      "Developed an innovative e-learning application using machine learning to predict individual learning styles. Enhanced user experience with CSS and Java, leveraging tools like Android Studio and Firebase.",
+    technologies: "Java, CSS, Android Studio, Firebase",
     delay: 700,
-    sourceCode: 'https://github.com/HridyaDEV/MainProject-ToyCycle',
   },
+  {
+    title: "Library Management System",
+    description:
+      "Engineered a web-based platform to streamline library tasks like pre-booking, issuing, and fine tracking. Integrated with tools like phpMyAdmin and XAMPP.",
+    technologies: "Java, HTML, CSS, XAMPP",
+    delay: 800,
+  },
+
+
 ];
 
 function Projects() {
