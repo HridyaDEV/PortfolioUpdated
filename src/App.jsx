@@ -1,35 +1,32 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
+import NavBar from "./components/NavBar";
 import Brief from "./components/Brief";
 import About from "./components/About";
-import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
-import NavBar from "./components/NavBar";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 const App = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000, once: true });
+  }, []);
+
   return (
-    <div className="bg-gray-100 min-h-screen">
-
+    <div className="bg-gray-100 min-h-screen scroll-smooth">
       {/* Header */}
- <NavBar/>
+      <NavBar />
 
+      {/* Sections */}
       <Brief />
-
-      {/* About Section */}
       <About />
-
-      <Education/>
-
-      <Skills/>
-
-      {/* Projects Section */}
+      <Education />
+      <Skills />
       <Projects />
-
-      {/* Contact Section */}
       <Contact />
-
     </div>
   );
 };
