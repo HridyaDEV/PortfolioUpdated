@@ -11,6 +11,7 @@ const projects = [
       "Built a full-stack web application enabling users to resell or purchase pre-owned toys, encouraging sustainable toy usage.",
     technologies: "React.js, MongoDB, Node.js, Express.js, Tailwind CSS, JavaScript",
     delay: 300,
+     liveLink: "https://toy-cylce-frontend-4okh.vercel.app/",
     sourceCode: 'https://github.com/HridyaDEV/MainProject-ToyCycle',
   },
     {
